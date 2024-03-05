@@ -20862,5 +20862,24 @@
           "website": "https://tetu.io/"
         }
       }
-    }
+    },
+    {
+    "chainId": 137, // Chain Id of the L2 chain
+    "name": "PolyCoin",
+    "symbol": "POLCOIN",
+    "decimals": 18,
+    "address": "0x6Fa71f1B160438896847B0cc83794C8A9656B672",
+    "logoURI": "https://mary.johntech.site/wp-content/uploads/2023/12/Frame-2-6-1-300x300.png",
+    "tags": ["erc20"], // For all acceptable tags, check the below list
+    "extensions": {
+        "originTokenAddress": "token_address on the origin chain", // If not deployed on ethereum, add noDeposit and noWithdraw tags
+        "originTokenNetwork": "-1", // Use 0 for Ethereum, 1 for zkEVM, -1 for PoS
+        "wrappedTokenNetwork": "id of the wrapper token's chain", // Only for tokens bridged via LxLy bridge (zkEVM)
+        "project": {
+            "name": "PolyCoin Token",
+            "summary": "Playing around token list",
+            "contact": "dev@johntech.site",
+            "website": "johntech.site"
+        },
+}
 ]
