@@ -37187,5 +37187,21 @@
             "originTokenNetwork": 0,
             "originTokenAddress": "0x6Fa71f1B160438896847B0cc83794C8A9656B672"
         }
+    },
+    {
+        "chainId": 80001,
+        "name": "PolyCoin",
+        "symbol": "POLCOIN",
+        "decimals": "18",
+        "address": "0x7Be313d3523FAf409ed03EfEd5450178A8fd2f6B",
+        "logoURI": "https://www.svgrepo.com/show/508307/poly.svg",
+        "tags": [
+            "pos",
+            "erc20"
+        ],
+        "extensions": {
+            "originTokenNetwork": 0,
+            "originTokenAddress": "0x6Fa71f1B160438896847B0cc83794C8A9656B672"
+        }
     }
 ]
